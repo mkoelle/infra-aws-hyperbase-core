@@ -7,17 +7,27 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mkoelle/aws-hyperbase-core.git"
+    "url": "git+https://github.com/mkoelle/infra-aws-hyperbase-core.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/mkoelle/aws-hyperbase-core/issues"
+    "url": "https://github.com/mkoelle/infra-aws-hyperbase-core/issues"
   },
-  "homepage": "https://github.com/mkoelle/aws-hyperbase-core#readme",
-  "workspaces":[
+  "homepage": "https://github.com/mkoelle/infra-aws-hyperbase-core#readme",
+  "workspaces": [
     "core",
     "github",
     "organization"
-  ]
+  ],
+  "overrides": {
+    "handlebars": "^4.7.10",
+    "brace-expansion": "^5.0.13",
+    "glob": "^14.0.6",
+    "minimatch": "^11.0.9",
+    "uuid": "^11.1.1"
+  },
+  "engines": {
+    "node": ">=26"
+  }
 }

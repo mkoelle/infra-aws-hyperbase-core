@@ -9,8 +9,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@aws-sdk/client-iam": "^3.1138.0",
-    "@aws-sdk/client-sts": "^3.1138.0",
+    "@aws-sdk/client-iam": "^3.1175.0",
+    "@aws-sdk/client-sts": "^3.1175.0",
     "@octokit/core": "^7.0.8",
     "libsodium-wrappers": "^0.8.4"
   }
